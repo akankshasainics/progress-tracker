@@ -1,0 +1,111 @@
+
+#day, #date{
+    padding: 5px;
+    margin: 5px;
+}
+span {
+    margin: 5px;
+}
+
+button{
+  cursor: pointer;
+}
+
+.emptyCircle {
+  margin: 5px;
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+.fullCircle {
+  margin: 5px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  cursor: pointer;
+}
+
+
+.halfCircle{
+    margin: 5px;
+    display: inline-block;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    border: 1px solid black;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .one{
+    display: inline-block;
+    background-color: black;
+    height: 30px; width:15px;
+    border-right: 1px solid black;
+  }
+  
+  .two{
+    display: inline-block;
+    background-color: black;
+    height: 30px; width:15px;
+  }
+
+  .task, .taskCircles{
+      text-align: center;
+      display: inline-block;
+  }
+
+  .task{
+    margin-right: 4%; 
+  }
+
+  .group{
+    display: flex;
+    left: 40px;
+    justify-content: center;
+    align-items: center;
+  } 
+
+  .heading{
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+  }
+
+  .days, .dates{
+    display: flex;
+    margin-left: 20.5%;
+  }
+
+  .day, .date{
+    width: 30px;
+    margin: 6px;
+    height: 30px;
+  }
+
+  .main{
+    text-align: center;
+  }
+  
+  .delete{
+    margin-left: 30px;
+  }
+
+ .export{
+   margin: 10px;
+ } 
+
+ .header{
+   display: flex;
+ }
